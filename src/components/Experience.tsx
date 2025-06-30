@@ -17,12 +17,12 @@ const experiences: ExperienceItem[] = [
         location: "Jhamiskhel, Lalitpur",
         timeframe: "Feb 2025 - May 2025",
         responsibilites: [
-            " - Built and maintained front-end features in React.js and TypeScript for multiple web applications. ",
-            " - Developed and secured authentication flows with Node.js, Express.js, JWT and a JSON-server mock backend.",
-            "- Created responsive, accessible UI components using Material UI and Ant Design.",
-            " - Integrated Google OAuth2 along with Gmail and Calendar APIs to power scheduling and communication features.",
-            " - Wrote clean, modular code following component-based best practices for reusability and maintainability.",
-            " - Used Git and GitHub for version control, collaborating via pull requests and peer code reviews."
+            " Built and maintained front-end features in React.js and TypeScript for multiple web applications. ",
+            " Developed and secured authentication flows with Node.js, Express.js, JWT and a JSON-server mock backend.",
+            " Created responsive, accessible UI components using Material UI and Ant Design.",
+            " Integrated Google OAuth2 along with Gmail and Calendar APIs to power scheduling and communication features.",
+            " Wrote clean, modular code following component-based best practices for reusability and maintainability.",
+            " Used Git and GitHub for version control, collaborating via pull requests and peer code reviews."
         ]
     },
 ];
