@@ -19,7 +19,7 @@ const skills = [
   { name: "React", icon: ReactIcon, category: "Frontend" },
   { name: "Node.js", icon: NodeIcon, category: "Backend" },
   { name: "Express", icon: ExpressIcon, category: "Backend" },
-  { name: "Tailwind", icon: TailwindIcon, category: "Frontend" },
+  { name: "TailwindCSS", icon: TailwindIcon, category: "Frontend" },
   { name: "JavaScript", icon: JSIcon, category: "Frontend" },
   { name: "TypeScript", icon: TSIcon, category: "Frontend" },
   { name: "AWS", icon: AWSIcon, category: "DevOps" },
@@ -35,7 +35,7 @@ const Skills: React.FC = () => {
   const isInView = useInView(ref, { once: true, amount: 0.3 })
 
   return (
-    <section id="skills" className="py-20 bg-background relative overflow-hidden">
+    <section id="skills" className="py-20 bg-background relative overflow-visible">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-20">
         <motion.div
@@ -77,7 +77,7 @@ const Skills: React.FC = () => {
       </motion.h2>
 
       {/* Animated Marquee */}
-      <div className="overflow-hidden mb-16 relative z-10">
+      <div className="overflow-x-hidden overflow-visible mb-16 relative z-10">
         <motion.div
           className="flex space-x-6 py-4"
           animate={{ x: ["0%", "-50%"] }}
@@ -95,8 +95,7 @@ const Skills: React.FC = () => {
               <ToolTip.Root key={`${skill.name}-${idx}`}>
                 <ToolTip.Trigger asChild>
                   <motion.div
-                    className={`${glass} flex items-center space-x-2 px-4 py-2 min-w-[140px] border border-accent/20 hover:border-accent/50 transition-all duration-300`}
-                    style={{
+className={`${glass} flex-shrink-0 flex items-center space-x-2 px-4 py-2 w-max border border-accent/20 hover:border-accent/50 transition-all duration-300`}                    style={{
                       background: "linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)",
                       backdropFilter: "blur(20px)",
                     }}
