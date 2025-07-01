@@ -1,0 +1,10 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import * as React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "next-themes";
+import './index.css';
+import { TooltipProvider } from '@radix-ui/react-tooltip';
+const root = createRoot(document.getElementById("root"));
+root.render(_jsx(React.StrictMode, { children: _jsx(ThemeProvider, { attribute: "class", children: _jsx(TooltipProvider, { delayDuration: 200, children: _jsx(BrowserRouter, { children: _jsx(App, {}) }) }) }) }));
