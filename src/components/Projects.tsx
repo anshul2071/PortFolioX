@@ -5,12 +5,11 @@ import { motion, useInView } from "framer-motion"
 import * as Dialog from "@radix-ui/react-dialog"
 import { glass } from "@/utils/theme"
 import { ExternalLink, Github, X } from "lucide-react"
-import Ats from "@/assets/thumbnails/Ats.png"
-import jobfind from "../assets/thumbnails/jobfind.png"
-import AuthX from "../assets/thumbnails/AuthX.png"
-import passwordgen from "../assets/thumbnails/passwordgen.png"
-import xchange from "../assets/thumbnails/xchange.png"
-
+import AtsImg         from "@/assets/thumbnails/Ats.png";
+import JobFindImg     from "@/assets/thumbnails/jobfind.png";
+import AuthXImg       from "@/assets/thumbnails/AuthX.png";
+import PasswordGenImg from "@/assets/thumbnails/passwordgen.png";
+import XChangeImg     from "@/assets/thumbnails/xchange.png";
 interface Project {
   title: string
   thumbnail: string
@@ -23,7 +22,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "NexCruit",
-    thumbnail: Ats,
+    thumbnail: AtsImg,
     description:
       "NEXCRUIT is a sophisticated, responsive single-page application designed to streamline the entire recruitment lifecycle. From candidate onboarding and resume parsing to assessments, interviews, offer management, background checks, and comprehensive analytics, NEXCRUIT provides a seamless end-to-end recruitment management experience.",
     tech: ["React", "Typescript", "Express", "Node.js", "MongoDB", "AntDesign", "Redux"],
@@ -32,7 +31,7 @@ const projects: Project[] = [
   },
   {
     title: "JobFinder",
-    thumbnail: jobfind,
+    thumbnail: JobFindImg,
     description:
       "Job-Finder is a full-stack web application designed to help users search for remote job listings, save selected jobs, and manage their saved jobs. The project uses the Remotive API to fetch remote jobs, and a custom Node.js/Express backend with a JSON file (db.json) to persist saved jobs. The frontend is built using React (with Vite), Redux Toolkit for state management, and Material-UI (MUI) for an attractive UI. Dark mode support, filtering, and pagination are also implemented.",
     tech: ["React", "Express", "Node.js", "Material-UI", "Redux"],
@@ -41,7 +40,7 @@ const projects: Project[] = [
   },
   {
     title: "AuthX",
-    thumbnail: AuthX,
+    thumbnail: AuthXImg,
     description:
       "This project demonstrates a complete authentication system with user registration, login functionality, and protected routes. It uses React for the frontend, Express for the backend server, and JSON Server for data storage.",
     tech: ["React", "Express", "CSS", "JSON Server"],
@@ -50,7 +49,7 @@ const projects: Project[] = [
   },
   {
     title: "PasswordNator",
-    thumbnail: passwordgen,
+    thumbnail: PasswordGenImg,
     description:
       "PasswordNator is a simple password generator app built with Vanilla Js. It allows users to generate secure passwords with various options, such as length, complexity, and character sets.",
     tech: ["Javascript", "HTML", "CSS"],
@@ -59,7 +58,7 @@ const projects: Project[] = [
   },
   {
     title: "xChangeRate",
-    thumbnail: xchange,
+    thumbnail: XChangeImg,
     description:
       "This is a simple web-based currency converter that allows users to convert currencies in real-time using an external exchange rate API. Users can select a base currency and a target currency from dropdowns, enter an amount, and fetch the conversion rate. The application dynamically updates flags based on the selected currencies.",
     tech: ["Javascript", "HTML", "CSS"],
