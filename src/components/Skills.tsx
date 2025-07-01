@@ -19,7 +19,7 @@ const skills = [
   { name: "React", icon: ReactIcon, category: "Frontend" },
   { name: "Node.js", icon: NodeIcon, category: "Backend" },
   { name: "Express", icon: ExpressIcon, category: "Backend" },
-  { name: "TailwindCSS", icon: TailwindIcon, category: "Frontend" },
+  { name: "Tailwind", icon: TailwindIcon, category: "Frontend" },
   { name: "JavaScript", icon: JSIcon, category: "Frontend" },
   { name: "TypeScript", icon: TSIcon, category: "Frontend" },
   { name: "AWS", icon: AWSIcon, category: "DevOps" },
