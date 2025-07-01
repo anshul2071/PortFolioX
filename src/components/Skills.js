@@ -18,7 +18,7 @@ const skills = [
     { name: "React", icon: ReactIcon, category: "Frontend" },
     { name: "Node.js", icon: NodeIcon, category: "Backend" },
     { name: "Express", icon: ExpressIcon, category: "Backend" },
-    { name: "Tailwind", icon: TailwindIcon, category: "Frontend" },
+    { name: "TailwindCSS", icon: TailwindIcon, category: "Frontend" },
     { name: "JavaScript", icon: JSIcon, category: "Frontend" },
     { name: "TypeScript", icon: TSIcon, category: "Frontend" },
     { name: "AWS", icon: AWSIcon, category: "DevOps" },
@@ -47,7 +47,7 @@ const Skills = () => {
                             ease: "linear",
                             duration: 20,
                         },
-                    }, children: _jsx(ToolTip.Provider, { children: marqueSkills.map((skill, idx) => (_jsxs(ToolTip.Root, { children: [_jsx(ToolTip.Trigger, { asChild: true, children: _jsxs(motion.div, { className: `${glass} flex items-center space-x-2 px-4 py-2 min-w-[140px] border border-accent/20 hover:border-accent/50 transition-all duration-300`, style: {
+                    }, children: _jsx(ToolTip.Provider, { children: marqueSkills.map((skill, idx) => (_jsxs(ToolTip.Root, { children: [_jsx(ToolTip.Trigger, { asChild: true, children: _jsxs(motion.div, { className: `${glass} flex-shrink-0 flex items-center space-x-2 px-4 py-2 w-max border border-accent/20 hover:border-accent/50 transition-all duration-300`, style: {
                                             background: "linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)",
                                             backdropFilter: "blur(20px)",
                                         }, whileHover: {
