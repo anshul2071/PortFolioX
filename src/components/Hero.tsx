@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
                   transition={{duration: 0.8}}
                 >
                     <motion.span
-                        className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent"
+                        className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-gray-500"
                         animate={{
                             backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"]
                         }}

@@ -1,10 +1,12 @@
 import * as React from "react";
 import {motion} from 'framer-motion';
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {MdEmail} from "react-icons/md";
 
 const socials = [
-    {href :"https://www.linkedin.com/in/anshulrawal/", label: "LinkedIn"},
-    {href : "https://github.com/anshulrawal", label: "GitHub"},
-    {href: "mailto:anshul2071@gmail.com", label: "Email"}
+    {href :"https://www.linkedin.com/in/anshul-rawal-54b075282/", icon: FaLinkedin},
+    {href : "https://github.com/anshul2071", icon: FaGithub},
+    {href: "mailto:anshul2071@gmail.com", icon: MdEmail},
 ];
 
 const Footer: React.FC = () => {
@@ -50,7 +52,7 @@ const Footer: React.FC = () => {
                        }}
                        whileTap={{scale: 0.95}}
                     >
-                        {soc.label}
+                        <soc.icon className="w-6 h-6" />
                         
                         {/* Hover underline effect */}
                         <motion.div
