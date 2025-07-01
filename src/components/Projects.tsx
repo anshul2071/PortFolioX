@@ -7,7 +7,7 @@ import { glass } from "@/utils/theme"
 import { ExternalLink, Github, X } from "lucide-react"
 import AtsImg         from "@/assets/thumbnails/Ats.png";
 import JobFindImg     from "@/assets/thumbnails/jobfind.png";
-import AuthXImg       from "@/assets/thumbnails/AuthX.png";
+import AuthXImg       from "@/assets/thumbnails/authX.png";
 import PasswordGenImg from "@/assets/thumbnails/passwordgen.png";
 import XChangeImg     from "@/assets/thumbnails/xchange.png";
 interface Project {
