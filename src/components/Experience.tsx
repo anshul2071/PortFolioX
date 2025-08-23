@@ -25,6 +25,21 @@ const experiences: ExperienceItem[] = [
             " Used Git and GitHub for version control, collaborating via pull requests and peer code reviews."
         ]
     },
+
+    {
+        title: "Frontend Developer",
+        company: "Veriason Creatives",
+        location: "Pulchowk, Lalitpur",
+        timeframe: "Current",
+        responsibilites: [
+            " Improved UI consistency and branding by standardizing typography, buttons, layouts, and responsive styling across all sections.",
+            " Enhanced user experience with clickable cards/images, overlay navigation, optimized galleries, and redesigned blog, contact, and 404 pages.",
+            "Built dynamic discount and “New Wine” logic, adding automated badges for promotions and newly released products."
+            " Strengthened SEO performance with dynamic H1/H2 titles, meta descriptions, and structured data (Homepage & Taxonomy Schema).",
+            " Integrated and styled WordPress content dynamically into taxonomy pages with conditional rendering for headings and anchors.",
+            "Ensured seamless usability by fixing text overflow, aligning subscription/FAQ sections, and refining overall responsiveness."
+        ]
+    },
 ];
 
 const Experience: React.FC = () => {
