@@ -1,16 +1,26 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "ESNext"],
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "jsx": "react-jsx",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node10",
     "strict": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    "ignoreDeprecations": "6.0",
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
-    "paths": { "@/*": ["src/*"] }
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
