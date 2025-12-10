@@ -2,7 +2,7 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import * as React from "react";
 import { motion, useInView } from 'framer-motion';
 import { glass } from "@/utils/theme";
-import profile from '../assets/profile.jpeg';
+import profile from '../assets/Profile.jpg';
 const About = () => {
     const ref = React.useRef(null);
     const isInView = useInView(ref, { once: true, amount: 0.3 });
